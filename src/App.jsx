@@ -7,7 +7,9 @@ import logo from './assets/logo.jpg';
 
 function App() {
   return (
-    <Router>
+    // 👇 HIER ZAT HET PROBLEEM! Ik heb de basename toegevoegd.
+    // Let op: Dit moet PRECIES matchen met je repository naam.
+    <Router basename="/Sprint_united/">
       <div className="app">
         <nav style={{
           position: 'fixed',
